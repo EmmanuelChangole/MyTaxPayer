@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "678517586257",
+    "firebase_url": "https://mytaxpayer-1f552.firebaseio.com",
+    "project_id": "mytaxpayer-1f552",
+    "storage_bucket": "mytaxpayer-1f552.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678517586257:android:0c784c3e58467dd2babb70",
+        "android_client_info": {
+          "package_name": "com.mytax.mytaxpayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678517586257-mth369n4828i3buupp4dq2a4tikr5aft.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mytax.mytaxpayer",
+            "certificate_hash": "5d61b66f74a366528e3b7f2c7f60cbf3bec301dc"
+          }
+        },
+        {
+          "client_id": "678517586257-55cgu9och41hudb2ecqh6rt9vbst9r45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuTSvjYUfN56VCk20EU5N28o80JFu8kL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678517586257-55cgu9och41hudb2ecqh6rt9vbst9r45.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

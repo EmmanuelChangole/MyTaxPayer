@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyTaxPayer</string>
+    <string name="ed_password">Choose a password</string>
+    <string name="ed_con_password">Re-Enter your password</string>
+    <string name="email_error">Email cannot be empty</string>
+    <string name="error_invalid_mail">Enter a valid email</string>
+    <string name="password_error">Password Cannot be empty</string>
+    <string name="password_length_error">Password should be atleast six characters</string>
+    <string name="confrim_password_error">The Password does not match.</string>
+    <string name="verification_email">Verification link sent.</string>
+    <string name="failed_email">Failed to sent verification link</string>
+    <string name="toast_success">Account Created</string>
+</resources>

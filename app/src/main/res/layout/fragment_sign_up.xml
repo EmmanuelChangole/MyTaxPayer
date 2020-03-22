@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <EditText
+                    android:id="@+id/ed_sign_up_Email"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@null"
+                    android:drawablePadding="20dp"
+                    android:hint="Enter your Email"
+                    android:inputType="textEmailAddress"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/ed_sign_up_Password"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ed_sign_up_Email"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@null"
+                    android:drawablePadding="20dp"
+                    android:hint="@string/ed_password"
+                    android:inputType="textPassword"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/ed_sign_up_ConfrimPassword"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ed_sign_up_Password"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@null"
+                    android:drawablePadding="20dp"
+                    android:hint="@string/ed_con_password"
+                    android:inputType="textPassword"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/ed_sign_up_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ed_sign_up_ConfrimPassword"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:text="Sign up"
+                    android:textSize="15dp"
+
+
+                    />
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
