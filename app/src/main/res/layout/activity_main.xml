@@ -6,23 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".ui.MainActivity">
 
-    <com.google.android.material.appbar.AppBarLayout
+  <!--  <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar_layout"
         android:layout_width="match_parent"
         android:layout_height="20dp">
-    </com.google.android.material.appbar.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>-->
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tab_layout"
         android:layout_width="match_parent"
-        android:layout_height="26dp"
-        android:background="@color/colorAccent"
+        android:layout_height="40dp"
+        android:background="@color/colorLightGreen"
         app:tabGravity="fill"
-        app:tabIndicator="@color/colorPrimary"
+        app:tabIndicator="@color/colorGrey"
         app:tabIndicatorHeight="3dp"
         app:tabMode="fixed"
         app:tabTextColor="@color/colorWhite">
     </com.google.android.material.tabs.TabLayout>
+
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewer_page"
         android:layout_below="@id/tab_layout"

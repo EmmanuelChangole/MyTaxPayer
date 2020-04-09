@@ -4,5 +4,14 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="colorWhite">#FAFAFA</color>
+    <color name="colorGrey">#AEA9A9</color>
+    <color name="colorOrange">#DF911D</color>
+    <color name="colorPink">#F43576</color>
+    <color name="colorGreen">#84F81F</color>
+    <color name="colorRed">#FF1201</color>
+    <color name="colorBlue">#1B7D9F</color>
+    <color name="colorLightGreen">#34D5A5</color>
+    <color name="cardColor">#ffffff</color>
+    <color name="textcardColor">#3f3f3f</color>
 
 </resources>

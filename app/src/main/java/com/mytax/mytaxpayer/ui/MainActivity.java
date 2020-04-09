@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initWidgets();
         initViews();
+
     }
 
     private void initViews()
@@ -37,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     private void initWidgets()
     {
         tabLayout=(TabLayout)findViewById(R.id.tab_layout);
-        appBarLayout=(AppBarLayout)findViewById(R.id.app_bar_layout);
+      //  appBarLayout=(AppBarLayout)findViewById(R.id.app_bar_layout);
         viewPager=(ViewPager)findViewById(R.id.viewer_page);
     }
 }

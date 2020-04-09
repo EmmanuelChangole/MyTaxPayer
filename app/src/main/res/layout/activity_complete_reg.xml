@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ActivityCompleteReg">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="60dp"
+        android:id="@+id/cardView"
+        android:layout_centerHorizontal="true"
+        android:elevation="4dp"
+        app:cardCornerRadius="5dp"
+        android:layout_width="300dp"
+        android:layout_height="450dp">
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+              <TextView
+                  android:layout_marginTop="10dp"
+                  android:layout_centerHorizontal="true"
+                  android:id="@+id/tvDescription"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/ed_complete_profile"
+                  android:textSize="15sp"
+                  android:textColor="@color/colorBlue"
+                  />
+
+            <EditText
+                android:layout_marginTop="6dp"
+                android:drawableLeft="@drawable/ic_person"
+                android:drawablePadding="12dp"
+                android:background="@drawable/edit_text_background"
+                android:padding="10dp"
+                android:layout_below="@id/tvDescription"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/ed_com_name"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/ed_name"
+                android:textSize="15sp"
+                />
+            <EditText
+                android:layout_marginTop="6dp"
+                android:drawablePadding="12dp"
+                android:drawableLeft="@drawable/ic_phone"
+                android:layout_below="@id/ed_com_name"
+                android:id="@+id/ed_com_phone"
+                android:layout_width="250dp"
+                android:hint="@string/ed_phone"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"
+                android:background="@drawable/edit_text_background"
+                android:padding="10dp"
+                />
+            <EditText
+                android:layout_marginTop="6dp"
+                android:drawablePadding="12dp"
+                android:drawableLeft="@drawable/ic_credit"
+                android:layout_below="@id/ed_com_phone"
+                android:id="@+id/ed_com_national_id"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:hint="@string/ed_national_id"
+                android:textSize="15sp"
+                android:background="@drawable/edit_text_background"
+                android:padding="10dp"
+                />
+            <EditText
+                android:layout_marginTop="6dp"
+                android:drawablePadding="12dp"
+                android:drawableLeft="@drawable/ic_business"
+                android:id="@+id/ed_com_type_business"
+                android:layout_below="@id/ed_com_national_id"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:hint="@string/ed_business_type"
+                android:textSize="15sp"
+                android:background="@drawable/edit_text_background"
+                android:padding="10dp"
+                />
+            <EditText
+                android:layout_marginTop="6dp"
+                android:drawablePadding="12dp"
+                android:drawableLeft="@drawable/ic_business"
+                android:layout_below="@id/ed_com_type_business"
+                android:id="@+id/ed_com_Name_business"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:hint="@string/ed_business_name"
+                android:textSize="15sp"
+                android:background="@drawable/edit_text_background"
+                android:padding="10dp"
+                />
+            <EditText
+                android:layout_marginTop="6dp"
+                android:drawableLeft="@drawable/ic_add_location_black_24dp"
+                android:drawablePadding="12dp"
+                android:layout_below="@id/ed_com_Name_business"
+                android:id="@+id/ed_com_location_business"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:hint="@string/ed_business_location"
+                android:textSize="15sp"
+                android:background="@drawable/edit_text_background"
+                android:padding="10dp"
+                />
+            <EditText
+                android:layout_marginTop="6dp"
+                android:drawableLeft="@drawable/ic_offline_pin"
+                android:drawablePadding="12dp"
+                android:layout_below="@id/ed_com_location_business"
+                android:id="@+id/ed_com_kra_pin"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:hint="@string/ed_Kra_pin"
+                android:textSize="15sp"
+                android:background="@drawable/edit_text_background"
+                android:padding="10dp"
+
+                />
+
+               <Button
+                   android:layout_marginTop="6dp"
+                   android:id="@+id/but_submit"
+                   android:background="@drawable/button_background"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/ed_com_kra_pin"
+                   android:layout_centerHorizontal="true"
+                   android:textSize="15sp"
+                   android:text="Submit."
+                   android:textColor="@color/colorWhite"
+
+                   />
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

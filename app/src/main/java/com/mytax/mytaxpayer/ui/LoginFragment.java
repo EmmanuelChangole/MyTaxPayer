@@ -37,6 +37,7 @@ public class LoginFragment extends Fragment {
             }
         });
         return view;
+
     }
 
     /*Method used to initialize the widgets*/
@@ -59,31 +60,36 @@ public class LoginFragment extends Fragment {
         {
             loginEmail.setError(getActivity().getString(R.string.email_error));
             loginEmail.requestFocus();
+            loginEmail.setBackgroundResource(R.drawable.edit_text_error_background);
             return;
         }
-
+        loginEmail.setBackgroundResource(R.drawable.edit_text_background);
         if(!Patterns.EMAIL_ADDRESS.matcher(email).matches())
         {
             loginEmail.setError(getActivity().getString(R.string.error_invalid_mail));
             loginEmail.requestFocus();
+            loginEmail.setBackgroundResource(R.drawable.edit_text_error_background);
             return;
 
         }
+        loginEmail.setBackgroundResource(R.drawable.edit_text_background);
 
         if(isEmpty(password))
         {
             loginPassword.setError(getActivity().getString(R.string.password_error));
             loginPassword.requestFocus();
+            loginPassword.setBackgroundResource(R.drawable.edit_text_error_background);
             return;
         }
-
+        loginPassword.setBackgroundResource(R.drawable.edit_text_background);
         if(isLengthMin("name",password,"PhoneNumber"))
         {
             loginPassword.setError(getActivity().getString(R.string.password_length_error));
             loginPassword.requestFocus();
+            loginPassword.setBackgroundResource(R.drawable.edit_text_error_background);
             return;
         }
-
+        loginPassword.setBackgroundResource(R.drawable.edit_text_background);
         loginUser(email,password);
 
 

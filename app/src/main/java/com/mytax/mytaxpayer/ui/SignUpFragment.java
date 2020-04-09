@@ -74,39 +74,45 @@ public class SignUpFragment extends Fragment
         {
             signUpEmail.setError(getActivity().getString(R.string.email_error));
             signUpEmail.requestFocus();
+            signUpEmail.setBackgroundResource(R.drawable.edit_text_error_background);
             return;
         }
-
+        signUpEmail.setBackgroundResource(R.drawable.edit_text_background);
         if(!Patterns.EMAIL_ADDRESS.matcher(email).matches())
         {
             signUpEmail.setError(getActivity().getString(R.string.error_invalid_mail));
             signUpEmail.requestFocus();
+            signUpEmail.setBackgroundResource(R.drawable.edit_text_error_background);
             return;
 
         }
 
-
+        signUpEmail.setBackgroundResource(R.drawable.edit_text_background);
 
         if(isEmpty(password))
         {
             signUpPassword.setError(getActivity().getString(R.string.password_error));
             signUpPassword.requestFocus();
+            signUpPassword.setBackgroundResource(R.drawable.edit_text_error_background);
             return;
         }
+        signUpPassword.setBackgroundResource(R.drawable.edit_text_background);
         if(isLengthMin("name",password,"PhoneNumber"))
         {
             signUpPassword.setError(getActivity().getString(R.string.password_length_error));
             signUpPassword.requestFocus();
+            signUpPassword.setBackgroundResource(R.drawable.edit_text_error_background);
             return;
         }
-
+        signUpPassword.setBackgroundResource(R.drawable.edit_text_background);
         if(!confirmPassword.matches(password))
         {
             signUpConfrimPassword.setError(getActivity().getString(R.string.confrim_password_error));
             signUpConfrimPassword.requestFocus();
+           signUpConfrimPassword.setBackgroundResource(R.drawable.edit_text_error_background);
             return;
         }
-
+        signUpConfrimPassword.setBackgroundResource(R.drawable.edit_text_background);
 
         registerUser(email,password);
 

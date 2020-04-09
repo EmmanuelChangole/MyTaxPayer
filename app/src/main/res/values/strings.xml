@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">MyTaxPayer</string>
+    <string name="app_name">Kibandaski taxpayer</string>
     <string name="ed_password">Choose a password</string>
-    <string name="ed_con_password">Re-Enter your password</string>
+    <string name="ed_con_password">Re-Enter password</string>
     <string name="email_error">Email cannot be empty</string>
     <string name="error_invalid_mail">Enter a valid email</string>
     <string name="password_error">Password Cannot be empty</string>
@@ -10,4 +10,15 @@
     <string name="verification_email">Verification link sent.</string>
     <string name="failed_email">Failed to sent verification link</string>
     <string name="toast_success">Account Created</string>
+    <string name="ed_complete_profile">Complete Your Profile.</string>
+    <string name="ed_phone">Enter your phone number</string>
+    <string name="ed_name">Enter your name</string>
+    <string name="ed_national_id">Enter your national Id</string>
+    <string name="ed_business_type">Enter your Business type</string>
+    <string name="ed_business_name">Enter Your Business name</string>
+    <string name="ed_business_location">Enter location of business</string>
+    <string name="ed_Kra_pin">Enter your KRA pin</string>
+    <string name="databaseName">Users</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 </resources>
